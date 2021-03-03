@@ -1,2 +1,2 @@
 # Streamlit-Backtesting
-This project includes the creation of a intuitive graphical user interface for a trading strateies backtestinga.
+This project main objective is the creation of an intuitive graphical user interface for a trading strateies backtesting.
