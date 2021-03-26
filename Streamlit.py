@@ -14,7 +14,6 @@ st.write("""
    # Trading strategy backtester
    ### This strategy defines entry point with MACD and exit with B. Bands
 """)
-st.sidebar.image('/Users/juanrossi/Desktop/streamlit/logo.png')
 st.sidebar.write("Select asset to backtest")
 ticker = st.sidebar.text_input("Enter ticker here", "USDCAD=X")
 start, end = st.sidebar.beta_columns(2)
