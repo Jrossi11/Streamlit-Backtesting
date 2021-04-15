@@ -40,7 +40,7 @@ st.sidebar.write("Created by Juan Rossi")
 st.sidebar.write("Contact me at jrossi@udesa.edu.ar")
 
 
-short = st.selectbox('Select Strategy', ('Long-short','Long only'))
+short = st.selectbox('Select Strategy', ('Long only','Long-short'))
 if short == "Long only":
     short_allowed = False
 else:
