@@ -33,8 +33,8 @@ signal = st.sidebar.slider("MACD Signal line", 0, 40, 9, 1)
 st.sidebar.write("""
     ## Bollinger Bands parameters
 """)
-std = st.sidebar.slider("Bollinger Bands STD", 0.01, 4.0, 1.0, 0.01)
-days = st.sidebar.slider("Bollinger Bands Rolling Mean", 0, 100, 20, 1)
+std = st.sidebar.slider("Bollinger Bands STD", 0.01, 4.0, 2.0, 0.01)
+days = st.sidebar.slider("Bollinger Bands Rolling Mean", 0, 100, 35, 1)
 
 st.sidebar.write("Created by Juan Rossi")
 st.sidebar.write("Contact me at jrossi@udesa.edu.ar")
